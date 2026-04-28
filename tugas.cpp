@@ -18,4 +18,19 @@ public:
         cout << "Masukkan Sisi Miring Bawah: "; cin >> sisiB;
     }
 
-   
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double hitungKeliling() {
+        return 2 * (sisiA + sisiB);
+    }
+
+    void tampilkanHasil() {
+        cout << "Luas Layang-Layang     : " << hitungLuas() << endl;
+        cout << "Keliling Layang-Layang : " << hitungKeliling() << endl;
+    }
+
+    friend class BelahKetupat;
+};
+
