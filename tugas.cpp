@@ -38,3 +38,12 @@ class BelahKetupat {
 private:
     double d1, d2, sisi;
 
+public:
+    void inputData() {
+        cout << "\n[ Input Belah Ketupat ]" << endl;
+        cout << "Masukkan Diagonal 1 : "; cin >> d1;
+        cout << "Masukkan Diagonal 2 : "; cin >> d2;
+        cout << "Masukkan Panjang Sisi: "; cin >> sisi;
+    }
+
+   
