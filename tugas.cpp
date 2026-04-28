@@ -52,6 +52,6 @@ public:
 
     double hitungKeliling() {
         return 4 * sisi;
-    }
+    };
 
     
