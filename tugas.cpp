@@ -46,4 +46,12 @@ public:
         cout << "Masukkan Panjang Sisi: "; cin >> sisi;
     }
 
-   
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double hitungKeliling() {
+        return 4 * sisi;
+    }
+
+    
