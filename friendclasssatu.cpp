@@ -18,3 +18,23 @@ class siswa
 private:
     int id;
 
+public:
+    void setId(int pId);
+    void displayAll(orang &a);
+};
+
+// Implementasi fungsi di luar class
+void siswa::displayAll(orang &a) 
+{
+    cout << id << endl << a.nama; 
+}
+
+void orang::setNama(string pNama) 
+{   
+    nama = pNama;
+}
+
+void siswa::setId(int pId) 
+{
+    id = pId;
+}
